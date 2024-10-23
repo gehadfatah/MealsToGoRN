@@ -1,0 +1,27 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"41dbd2b2-8f50-43fd-a628-763d5f0d2110\" name=\"Changes\" comment=\"\">\n      <change beforePath=\"$PROJECT_DIR$/package.json\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/package.json\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/features/restaurants/screens/restaurants.screen.js\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/features/restaurants/screens/restaurants.screen.js\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/yarn.lock\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/yarn.lock\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\n      <map>\n        <entry key=\"$PROJECT_DIR$\" value=\"40-restaurant-detail-navigation-2\" />\n      </map>\n    </option>\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"MarkdownSettingsMigration\">\n    <option name=\"stateVersion\" value=\"1\" />\n  </component>\n  <component name=\"ProjectId\" id=\"2noSQ0dC6dNIxMh7EPvOWo0P3Al\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"autoscrollFromSource\" value=\"true\" />\n    <option name=\"autoscrollToSource\" value=\"true\" />\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">{\n  &quot;keyToString&quot;: {\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\n    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,\n    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,\n    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;\n  }\n}</component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"41dbd2b2-8f50-43fd-a628-763d5f0d2110\" name=\"Changes\" comment=\"\" />\n      <created>1729637917031</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1729637917031</updated>\n      <workItem from=\"1729637918695\" duration=\"117000\" />\n      <workItem from=\"1729638040031\" duration=\"866000\" />\n      <workItem from=\"1729680871866\" duration=\"638000\" />\n      <workItem from=\"1729710130990\" duration=\"191000\" />\n      <workItem from=\"1729710330096\" duration=\"3756000\" />\n    </task>\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision e817c64d4abef5b2ee2f97de4c9a13f9a2676a9c)
++++ b/.idea/workspace.xml	(date 1729715018574)
+@@ -7,6 +7,7 @@
+     <list default="true" id="41dbd2b2-8f50-43fd-a628-763d5f0d2110" name="Changes" comment="">
+       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/src/features/restaurants/screens/restaurants.screen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/restaurants/screens/restaurants.screen.js" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/infrastructure/navigation/app.navigator.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/navigation/app.navigator.js" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+@@ -56,7 +57,7 @@
+       <workItem from="1729638040031" duration="866000" />
+       <workItem from="1729680871866" duration="638000" />
+       <workItem from="1729710130990" duration="191000" />
+-      <workItem from="1729710330096" duration="3756000" />
++      <workItem from="1729710330096" duration="4679000" />
+     </task>
+     <servers />
+   </component>
