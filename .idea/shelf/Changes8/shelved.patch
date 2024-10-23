@@ -1,0 +1,27 @@
+Index: package.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>{\n  \"main\": \"node_modules/expo/AppEntry.js\",\n  \"scripts\": {\n    \"start\": \"expo start\",\n    \"android\": \"expo start --android\",\n    \"ios\": \"expo start --ios\",\n    \"web\": \"expo start --web\",\n    \"eject\": \"expo eject\",\n    \"lint\": \"eslint . --ext .js\"\n  },\n  \"dependencies\": {\n    \"@expo-google-fonts/lato\": \"^0.1.0\",\n    \"@expo-google-fonts/oswald\": \"^0.1.0\",\n    \"@react-native-community/masked-view\": \"0.1.10\",\n    \"@react-navigation/bottom-tabs\": \"^5.11.2\",\n    \"@react-navigation/native\": \"^5.8.10\",\n    \"@react-navigation/stack\": \"^5.12.8\",\n    \"camelize\": \"^1.0.0\",\n    \"expo\": \"~40.0.0\",\n    \"expo-font\": \"~8.4.0\",\n    \"expo-status-bar\": \"~1.0.3\",\n    \"react\": \"16.13.1\",\n    \"react-dom\": \"16.13.1\",\n    \"react-native\": \"https://github.com/expo/react-native/archive/sdk-40.0.1.tar.gz\",\n    \"react-native-gesture-handler\": \"~1.8.0\",\n    \"react-native-paper\": \"^4.5.0\",\n    \"react-native-reanimated\": \"~1.13.0\",\n    \"react-native-safe-area-context\": \"3.1.9\",\n    \"react-native-screens\": \"~2.15.0\",\n    \"react-native-svg\": \"12.1.0\",\n    \"react-native-web\": \"~0.13.12\",\n    \"styled-components\": \"^5.2.1\"\n  },\n  \"devDependencies\": {\n    \"@babel/core\": \"~7.9.0\",\n    \"@react-native-community/eslint-config\": \"^2.0.0\",\n    \"eslint\": \"^7.16.0\",\n    \"prettier\": \"^2.2.1\"\n  },\n  \"private\": true\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/package.json b/package.json
+--- a/package.json	(revision 52e8263c1d9882d8ddc3220c99f1e9ee613f069d)
++++ b/package.json	(date 1729638308979)
+@@ -1,12 +1,14 @@
+ {
+   "main": "node_modules/expo/AppEntry.js",
+   "scripts": {
+-    "start": "expo start",
++    "start": "node --openssl-legacy-provider index.js",
+     "android": "expo start --android",
+     "ios": "expo start --ios",
+     "web": "expo start --web",
+     "eject": "expo eject",
+-    "lint": "eslint . --ext .js"
++    "lint": "eslint . --ext .js",
++    "build": "NODE_OPTIONS=--openssl-legacy-provider webpack"
++
+   },
+   "dependencies": {
+     "@expo-google-fonts/lato": "^0.1.0",
