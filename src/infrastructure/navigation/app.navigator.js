@@ -11,9 +11,9 @@ import { RestaurantsNavigator } from "./restaurants.navigator";
 const Tab = createBottomTabNavigator();
 
 const TAB_ICON = {
-  Restaurants: "md-restaurant",
-  Map: "md-map",
-  Settings: "md-settings",
+  Restaurants: "restaurant",
+  Map: "map",
+  Settings: "settings",
 };
 
 const Settings = () => (
@@ -39,7 +39,10 @@ const createScreenOptions = ({ route }) => {
 export const AppNavigator = () => (
   <NavigationContainer>
     <Tab.Navigator
-      screenOptions={createScreenOptions}
+      screenOptions={({ route }) => ({
+        ...createScreenOptions({ route }),
+        headerShown: false, // Hide header for all tab screens
+      })}
       tabBarOptions={{
         activeTintColor: "tomato",
         inactiveTintColor: "gray",
