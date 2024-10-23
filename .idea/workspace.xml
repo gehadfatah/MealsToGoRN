@@ -4,16 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="41dbd2b2-8f50-43fd-a628-763d5f0d2110" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/infrastructure/navigation/app.navigator.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/navigation/app.navigator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/infrastructure/navigation/restaurants.navigator.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/navigation/restaurants.navigator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
-    </list>
-    <list id="15c9bd56-cabf-45e2-81b2-a38d7e666f1a" name="debug" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="41dbd2b2-8f50-43fd-a628-763d5f0d2110" name="Changes" comment="" />
+    <list id="15c9bd56-cabf-45e2-81b2-a38d7e666f1a" name="debug" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,17 +18,6 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/.idea/workspace.xml">
-      <ranges>
-        <range start1="7" end1="7" start2="7" end2="8" changelist="41dbd2b2-8f50-43fd-a628-763d5f0d2110" />
-        <range start1="8" end1="9" start2="9" end2="10" changelist="41dbd2b2-8f50-43fd-a628-763d5f0d2110" />
-        <range start1="10" end1="10" start2="11" end2="14" changelist="41dbd2b2-8f50-43fd-a628-763d5f0d2110" />
-        <range start1="23" end1="23" start2="27" end2="35" changelist="41dbd2b2-8f50-43fd-a628-763d5f0d2110" />
-        <range start1="46" end1="46" start2="58" end2="75" changelist="15c9bd56-cabf-45e2-81b2-a38d7e666f1a" />
-      </ranges>
-    </file>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
