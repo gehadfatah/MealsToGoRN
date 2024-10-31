@@ -7,5 +7,5 @@ import {Image, View} from "react-native";
 import { CompactRestaurantInfo } from "../../../components/restaurant/compact-restaurant-info.component";
 
 export const MapCallout = ({ restaurant }) => (
-  <CompactRestaurantInfo restaurant={restaurant} />
+  <CompactRestaurantInfo restaurant={restaurant}  isMap={true} />
 );
