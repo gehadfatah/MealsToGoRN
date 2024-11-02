@@ -1,7 +1,7 @@
 import { StatusBar as ExpoStatusBar } from "expo-status-bar";
 import React from "react";
 import { ThemeProvider } from "styled-components/native";
-import * as firebase from "firebase";
+import * as firebase from "firebase/app";
 
 import {
   useFonts as useOswald,
@@ -17,12 +17,13 @@ import { LocationContextProvider } from "./src/services/location/location.contex
 import { FavouritesContextProvider } from "./src/services/favourites/favourites.context";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBmKwzXIQ_7iufDh4U6GyU_4Wc-hyDEnf8",
-  authDomain: "mealstogo-b2612.firebaseapp.com",
-  projectId: "mealstogo-b2612",
-  storageBucket: "mealstogo-b2612.appspot.com",
-  messagingSenderId: "158582890553",
-  appId: "1:158582890553:web:2ef50439fcd80f2ede2de8",
+  apiKey: "AIzaSyBCclmyvxIG6m0EB3W5LMaWCeW3zFyFdz0",
+  authDomain: "todotaskapp-f9e7b.firebaseapp.com",
+  databaseURL: "https://todotaskapp-f9e7b.firebaseio.com",
+  projectId: "todotaskapp-f9e7b",
+  storageBucket: "todotaskapp-f9e7b.appspot.com",
+  messagingSenderId: "137896965462",
+  appId: "1:137896965462:web:7a31b78d108caabfed92f7"
 };
 
 firebase.initializeApp(firebaseConfig);
