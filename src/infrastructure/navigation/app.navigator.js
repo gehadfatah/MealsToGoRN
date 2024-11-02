@@ -8,13 +8,14 @@ import { SafeArea } from "../../components/utility/safe-area.component";
 
 import { RestaurantsNavigator } from "./restaurants.navigator";
 import { MapScreen } from "../../features/map/screens/map.screen";
+import header from "@react-navigation/stack/src/views/Header/Header";
 
 const Tab = createBottomTabNavigator();
 
 const TAB_ICON = {
-  Restaurants: "md-restaurant",
-  Map: "md-map",
-  Settings: "md-settings",
+  Restaurants: "restaurant",
+  Map: "map",
+  Settings: "settings",
 };
 
 const Settings = () => (
@@ -35,7 +36,10 @@ const createScreenOptions = ({ route }) => {
 export const AppNavigator = () => (
   <NavigationContainer>
     <Tab.Navigator
-      screenOptions={createScreenOptions}
+      screenOptions={({ route })  =>  ({...createScreenOptions({route})
+          ,headerShown:false,
+        })}
+
       tabBarOptions={{
         activeTintColor: "tomato",
         inactiveTintColor: "gray",
