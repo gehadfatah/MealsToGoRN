@@ -31,15 +31,15 @@ export const LoginScreen = ({ navigation }) => {
         />
         <Spacer size="large">
           <AuthInput
-            label="Password"
+            label=" Password"
             value={password}
             textContentType="password"
             secureTextEntry
             autoCapitalize="none"
-            secure
             onChangeText={(p) => setPassword(p)}
           />
         </Spacer>
+
         {error && (
           <ErrorContainer size="large">
             <Text variant="error">{error}</Text>
