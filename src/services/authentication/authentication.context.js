@@ -10,6 +10,7 @@ export const AuthenticationContextProvider = ({ children }) => {
   const [error, setError] = useState("");
 
   const onLogin = (email, password) => {
+      seterronul()
     setIsLoading(true);
     loginRequest(email, password)
       .then((u) => {
@@ -22,6 +23,7 @@ export const AuthenticationContextProvider = ({ children }) => {
       });
   };
     const onRegister = (email, password,confirmPassword) => {
+        seterronul()
         if (confirmPassword !== password) {
             setError("not confirmed password match password");
             return
@@ -38,6 +40,9 @@ export const AuthenticationContextProvider = ({ children }) => {
                 setError(e.toString());
             });
     }
+    const seterronul= ()=>{
+        setError("");
+    }
   return (
     <AuthenticationContext.Provider
       value={{
@@ -45,7 +50,7 @@ export const AuthenticationContextProvider = ({ children }) => {
         user,
         isLoading,
         error,
-        onLogin, onRegister,
+        onLogin, onRegister,seterronul
       }}
     >
       {children}
