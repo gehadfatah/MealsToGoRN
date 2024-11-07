@@ -8,3 +8,9 @@ export const loginRequest = (email, password) =>
 
 export const registerRequest = (email, password) =>
     createUserWithEmailAndPassword(auth,email, password);
+
+export const authenticatechange = ()=>{
+    auth.onAuthStateChanged((user) => {
+        return user;
+    })
+}
