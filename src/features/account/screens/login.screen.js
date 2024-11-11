@@ -17,6 +17,7 @@ import { AuthenticationContext } from "../../../services/authentication/authenti
 export const LoginScreen = ({ navigation }) => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [call, setCall] = useState(false);
   const { onLogin, error, isLoading } = useContext(AuthenticationContext);
   return (
     <AccountBackground>
@@ -41,7 +42,8 @@ export const LoginScreen = ({ navigation }) => {
             onChangeText={(p) => setPassword(p)}
           />
         </Spacer>
-        {error && (
+
+        {error &&  (
           <ErrorContainer size="large">
             <Text variant="error">{error}</Text>
           </ErrorContainer>
@@ -56,7 +58,7 @@ export const LoginScreen = ({ navigation }) => {
               Login
             </AuthButton>
           ) : (
-            <ActivityIndicator animating={true} color={Colors.blue300} />
+            <ActivityIndicator animating={true}  />
           )}
         </Spacer>
       </AccountContainer>

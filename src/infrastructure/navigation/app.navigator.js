@@ -13,9 +13,9 @@ import { FavouritesContextProvider } from "../../services/favourites/favourites.
 const Tab = createBottomTabNavigator();
 
 const TAB_ICON = {
-  Restaurants: "md-restaurant",
-  Map: "md-map",
-  Settings: "md-settings",
+  Restaurants: "restaurant",
+  Map: "map",
+  Settings: "settings",
 };
 
 const createScreenOptions = ({ route }) => {
@@ -32,7 +32,10 @@ export const AppNavigator = () => (
     <LocationContextProvider>
       <RestaurantsContextProvider>
         <Tab.Navigator
-          screenOptions={createScreenOptions}
+          screenOptions={({ route })  =>  ({...createScreenOptions({route})
+          ,headerShown:false,
+        })}
+
           tabBarOptions={{
             activeTintColor: "tomato",
             inactiveTintColor: "gray",
