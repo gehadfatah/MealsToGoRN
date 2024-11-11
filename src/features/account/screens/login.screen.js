@@ -17,6 +17,7 @@ import { AuthenticationContext } from "../../../services/authentication/authenti
 export const LoginScreen = ({ navigation }) => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [call, setCall] = useState(false);
   const { onLogin, error, isLoading } = useContext(AuthenticationContext);
   return (
     <AccountBackground>
@@ -56,7 +57,7 @@ export const LoginScreen = ({ navigation }) => {
               Login
             </AuthButton>
           ) : (
-            <ActivityIndicator animating={true} color={"BLUE"} />
+            <ActivityIndicator animating={true}  />
           )}
         </Spacer>
       </AccountContainer>

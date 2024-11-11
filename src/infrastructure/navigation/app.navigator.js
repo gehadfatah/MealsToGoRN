@@ -32,7 +32,10 @@ export const AppNavigator = () => (
     <LocationContextProvider>
       <RestaurantsContextProvider>
         <Tab.Navigator
-          screenOptions={createScreenOptions}
+          screenOptions={({ route })  =>  ({...createScreenOptions({route})
+          ,headerShown:false,
+        })}
+
           tabBarOptions={{
             activeTintColor: "tomato",
             inactiveTintColor: "gray",
