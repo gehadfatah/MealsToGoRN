@@ -32,14 +32,12 @@ export const AppNavigator = () => (
     <LocationContextProvider>
       <RestaurantsContextProvider>
         <Tab.Navigator
-          screenOptions={({ route })  =>  ({...createScreenOptions({route})
-          ,headerShown:false,
-        })}
-
-          tabBarOptions={{
-            activeTintColor: "tomato",
-            inactiveTintColor: "gray",
-          }}
+            screenOptions={({ route }) => ({
+              ...createScreenOptions({ route }),
+              headerShown: false,
+              tabBarActiveTintColor: "tomato",
+              tabBarInactiveTintColor: "gray",
+            })}
         >
           <Tab.Screen name="Restaurants" component={RestaurantsNavigator} />
           <Tab.Screen name="Map" component={MapScreen} />
