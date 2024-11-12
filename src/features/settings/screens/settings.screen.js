@@ -30,6 +30,8 @@ export const SettingsScreen = ({ navigation }) => {
   useFocusEffect(
     useCallback(() => {
       getProfilePicture(user);
+      console.log(user)
+      console.log("email "+user.email)
     }, [user])
   );
 
@@ -49,6 +51,7 @@ export const SettingsScreen = ({ navigation }) => {
           )}
         </TouchableOpacity>
         <Spacer position="top" size="large">
+
           <Text variant="label">{user.email}</Text>
         </Spacer>
       </AvatarContainer>
