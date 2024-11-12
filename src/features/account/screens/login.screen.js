@@ -57,7 +57,7 @@ export const LoginScreen = ({ navigation }) => {
               Login
             </AuthButton>
           ) : (
-            <ActivityIndicator animating={true}  />
+            <ActivityIndicator animating={true} color={"BLUE"} />
           )}
         </Spacer>
       </AccountContainer>
