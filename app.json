@@ -1,7 +1,9 @@
 {
+  "name": "MealsTo",
+  "displayName": "MealsTo",
   "expo": {
-    "name": "MealsToGo",
-    "slug": "MealsToGo",
+    "name": "MealsTo",
+    "slug": "MealsTo",
     "version": "0.0.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -24,7 +26,7 @@
         "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#FFFFFF"
       },
-      "package": "com.gehadabdelfatah.MealsToGo"
+      "package": "com.gehadabdelfatah.nn"
     },
     "extra": {
       "eas": {
