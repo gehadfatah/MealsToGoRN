@@ -1,4 +1,6 @@
 {
+  "name": "MealsToGo",
+  "displayName": "MealsToGo",
   "expo": {
     "name": "MealsToGo",
     "slug": "MealsToGo",
@@ -7,11 +9,9 @@
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
+      "resizeMode": "contain"},
     "updates": {
-      "fallbackToCacheTimeout": 0
+
     },
     "assetBundlePatterns": [
       "**/*"
@@ -21,8 +21,12 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/icon.png",
-        "backgroundColor": "#FFFFFF"
+        "foregroundImage": "./assets/icon.png"},
+      "package": "com.gehadabdelfatah.MealsToGo"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b100f54d-881d-46ed-afdc-ad7b5313ed7f"
       }
     }
   }
