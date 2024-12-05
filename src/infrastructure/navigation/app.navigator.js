@@ -14,10 +14,10 @@ import { FavouritesContextProvider } from "../../services/favourites/favourites.
 const Tab = createBottomTabNavigator();
 
 const TAB_ICON = {
-  Restaurants: "md-restaurant",
-  Map: "md-map",
-  Checkout: "md-cart",
-  Settings: "md-settings",
+  Restaurants: "restaurant",
+  Map: "map",
+  Checkout: "cart",
+  Settings: "settings",
 };
 
 const createScreenOptions = ({ route }) => {
@@ -35,11 +35,12 @@ export const AppNavigator = () => (
       <RestaurantsContextProvider>
         <CartContextProvider>
           <Tab.Navigator
-            screenOptions={createScreenOptions}
-            tabBarOptions={{
-              activeTintColor: "tomato",
-              inactiveTintColor: "gray",
-            }}
+            screenOptions={({ route }) => ({
+              ...createScreenOptions({ route }),
+            headerShown: false,
+              tabBarActiveTintColor: "tomato",
+              tabBarInactiveTintColor: "gray",
+            })}
           >
             <Tab.Screen name="Restaurants" component={RestaurantsNavigator} />
             <Tab.Screen name="Checkout" component={CheckoutNavigator} />
