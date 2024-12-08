@@ -1,5 +1,5 @@
 import React, {useState, createContext} from "react";
-
+import * as firebase from "firebase/app";
 import {authenticatechange, loginRequest, registerRequest} from "./authentication.service";
 import { auth } from "./firebaseconfig";
 
@@ -64,7 +64,10 @@ export const AuthenticationContextProvider = ({children}) => {
                 user,
                 isLoading,
                 error,
-                onLogin, onRegister, seterronul,onLogout
+                onLogin,
+                onRegister,
+                seterronul,
+                onLogout
             }}
         >
             {children}
