@@ -1,9 +1,12 @@
 import React, {useEffect, useState} from 'react';
-import {ActivityIndicator, FlatList, Text, View} from 'react-native';
+import {ActivityIndicator, Alert,FlatList,Button,StyleSheet, Text, View} from 'react-native';
 
 export const MoviesScreen = () => {
     const [isLoading, setLoading] = useState(true);
     const [data, setData] = useState([]);
+    const onPress = ( value) => () =>  {
+        Alert.alert(`You tapped ${value} the button!`);
+    };
 
     const getMovies = async () => {
         try {
@@ -22,6 +25,7 @@ export const MoviesScreen = () => {
     }, []);
 
     return (
+        <>
         <View style={{flex: 1, padding: 24}}>
             {isLoading ? (
                 <ActivityIndicator />
@@ -35,8 +39,20 @@ export const MoviesScreen = () => {
                         </Text>
                     )}
                 />
+
             )}
         </View>
+    <View style={styles.buttonContainer}>
+        <Button onPress={onPress(" :) Press Me :)")} title="Press Me" color="#841584" />
+    </View>
+        </>
     );
 };
 
+const styles = StyleSheet.create({
+
+    buttonContainer: {
+        margin: 20,
+    },
+
+});
