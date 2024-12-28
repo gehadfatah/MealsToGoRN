@@ -63,6 +63,11 @@ export const SettingsScreen = ({ navigation }) => {
           left={(props) => <List.Icon {...props} color="black" icon="heart" />}
           onPress={() => navigation.navigate("Favourites")}
         />
+          <SettingsItem
+              title="Movies List"
+              left={(props) => <List.Icon {...props} color="black" icon="folder" />}
+              onPress={() => navigation.navigate("Movies")}
+          />
         <SettingsItem
           title="Logout"
           left={(props) => <List.Icon {...props} color="black" icon="door" />}
