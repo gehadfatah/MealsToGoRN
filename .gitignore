@@ -10,7 +10,6 @@ npm-debug.*
 web-build/
 .yarn/*
 .yarn
-yarn.lock
 
 # macOS
 .DS_Store
