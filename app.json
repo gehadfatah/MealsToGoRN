@@ -9,19 +9,20 @@
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
-      "resizeMode": "contain"},
-    "updates": {
-
+      "resizeMode": "contain"
     },
+    "updates": {},
     "assetBundlePatterns": [
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.gehadabdelfatah.MealsToGo"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/icon.png"},
+        "foregroundImage": "./assets/icon.png"
+      },
       "package": "com.gehadabdelfatah.MealsToGo"
     },
     "extra": {
