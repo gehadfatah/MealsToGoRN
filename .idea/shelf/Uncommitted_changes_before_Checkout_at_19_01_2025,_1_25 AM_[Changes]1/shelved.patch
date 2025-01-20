@@ -1,0 +1,19 @@
+Index: src/features/checkout/screens/checkout-error.screen.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import React from \"react\";\n\nimport { Text } from \"../../../components/typography/text.component\";\nimport { SafeArea } from \"../../../components/utility/safe-area.component\";\nimport { colors } from \"../../../infrastructure/theme/colors\";\nimport { CartIconContainer, CartIcon } from \"../components/checkout.styles\";\n\nexport const CheckoutErrorScreen = ({ route }) => {\n  const { error = \"\" } = route.params;\n  return (\n    <SafeArea>\n      <CartIconContainer>\n        <CartIcon icon=\"close\" bg={colors.ui.error} />\n        <Text variant=\"label\">{error}</Text>\n      </CartIconContainer>\n    </SafeArea>\n  );\n};\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/features/checkout/screens/checkout-error.screen.js b/src/features/checkout/screens/checkout-error.screen.js
+--- a/src/features/checkout/screens/checkout-error.screen.js	(revision 054827acc7baab0ffdb4a9c7158d8cb2f2c14011)
++++ b/src/features/checkout/screens/checkout-error.screen.js	(date 1737242711043)
+@@ -7,6 +7,8 @@
+ 
+ export const CheckoutErrorScreen = ({ route }) => {
+   const { error = "" } = route.params;
++
++
+   return (
+     <SafeArea>
+       <CartIconContainer>

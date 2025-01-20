@@ -1,0 +1,174 @@
+<changelist name="Changes24" date="1733462295666" recycled="false">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Changes24/shelved.patch" />
+  <option name="DESCRIPTION" value="Changes" />
+  <binary>
+    <option name="BEFORE_PATH" value=".yarn/cache/@babel-compat-data-npm-7.26.2-0f1eb3d38a-d52fae9b0d.zip" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value=".yarn/cache/@babel-generator-npm-7.26.2-5061e18ae4-6ff850b7d6.zip" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value=".yarn/cache/@babel-helper-create-regexp-features-plugin-npm-7.25.9-d51da141a8-563ed361ce.zip" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value=".yarn/cache/@babel-helper-simple-access-npm-7.25.9-477a4a7937-6d96c94b88.zip" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value=".yarn/cache/@babel-parser-npm-7.26.2-5b22b96c42-c88b5ea0ad.zip" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value=".yarn/cache/@babel-plugin-transform-modules-commonjs-npm-7.25.9-64aa5f0173-4f101f0ea4.zip" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value=".yarn/cache/@babel-plugin-transform-typescript-npm-7.25.9-706910d8c9-6dd1303f1b.zip" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value=".yarn/cache/@babel-preset-react-npm-7.25.9-d1295a160d-b5650c07a7.zip" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value=".yarn/cache/@babel-traverse-npm-7.25.9-6230e12b1d-901d325662.zip" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value=".yarn/cache/@babel-types-npm-7.26.0-ae81de0a93-a3dd37daba.zip" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value=".yarn/cache/@expo-cli-npm-0.21.8-5950619da9-6201830626.zip" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value=".yarn/cache/@expo-config-npm-10.0.5-4b3fda1fb2-b6676dbdc0.zip" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value=".yarn/cache/@expo-config-plugins-npm-9.0.10-7d8c48085a-88866f6b62.zip" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value=".yarn/cache/@expo-fingerprint-npm-0.11.2-caecbd0570-278d7a496e.zip" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value=".yarn/cache/@expo-metro-config-npm-0.19.4-c78717d000-32a3bfc89f.zip" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value=".yarn/cache/@expo-prebuild-config-npm-8.0.20-0ef6c608c7-5355add94d.zip" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value=".yarn/cache/@expo-xcpretty-npm-4.3.1-b317d60eae-dbf3e2d7f5.zip" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value=".yarn/cache/@npmcli-agent-npm-2.2.2-e2f559d6c0-67de7b88cc.zip" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value=".yarn/cache/@types-node-npm-16.18.119-d3f1632e08-e473300cc1.zip" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value=".yarn/cache/@types-node-npm-22.9.3-bc9b3f960a-274cced37a.zip" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value=".yarn/cache/babel-preset-expo-npm-12.0.2-cf75681c87-105728984f.zip" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value=".yarn/cache/caniuse-lite-npm-1.0.30001684-9413687103-5ee7aca9c2.zip" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value=".yarn/cache/dotenv-npm-16.4.5-bcb20eb95d-301a12c3d4.zip" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value=".yarn/cache/electron-to-chromium-npm-1.5.64-da12e239c8-9a866dcd2b.zip" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value=".yarn/cache/es-to-primitive-npm-1.2.1-b7a7eac6c5-4ead6671a2.zip" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value=".yarn/cache/expo-camera-npm-16.0.7-99d247d2fd-57e839417c.zip" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value=".yarn/cache/expo-modules-autolinking-npm-2.0.2-fa24b3c2ed-f1e7493069.zip" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value=".yarn/cache/expo-modules-core-npm-2.0.6-ab170b8d52-0180b49209.zip" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value=".yarn/cache/expo-npm-52.0.11-1b4d2c1346-8a0b702de5.zip" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value=".yarn/cache/flow-parser-npm-0.254.2-f12d0e1c27-2f9556a1e0.zip" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value=".yarn/cache/gopd-npm-1.0.1-10c1d0b534-a5ccfb8806.zip" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value=".yarn/cache/has-proto-npm-1.0.3-b598da2961-fe7c3d50b3.zip" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value=".yarn/cache/has-symbols-npm-1.0.3-1986bff2c4-a054c40c63.zip" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value=".yarn/install-state.gz" />
+    <option name="AFTER_PATH" value=".yarn/install-state.gz" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes24/install-state.gz" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value=".yarn/cache/is-bigint-npm-1.0.4-31c2eecbc9-c56edfe09b.zip" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value=".yarn/cache/is-boolean-object-npm-1.1.2-ecbd575e6a-c03b23dbaa.zip" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value=".yarn/cache/is-lambda-npm-1.0.1-7ab55bc8a8-93a32f0194.zip" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value=".yarn/cache/is-number-object-npm-1.0.7-539d0e274d-d1e8d01bb0.zip" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value=".yarn/cache/is-regex-npm-1.1.4-cca193ef11-362399b335.zip" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value=".yarn/cache/is-string-npm-1.0.7-9f7066daed-323b3d0462.zip" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value=".yarn/cache/is-symbol-npm-1.0.4-eb9baac703-92805812ef.zip" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value=".yarn/cache/make-fetch-happen-npm-13.0.1-4180f2aaa8-5c9fad6955.zip" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value=".yarn/cache/minipass-fetch-npm-3.0.5-ed78529694-8047d27323.zip" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value=".yarn/cache/nanoid-npm-3.3.7-98824ba130-d36c427e53.zip" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value=".yarn/cache/node-gyp-npm-10.2.0-cad1109948-0233759d8c.zip" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value=".yarn/cache/nopt-npm-7.2.1-635b7da949-6fa729cc77.zip" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value=".yarn/cache/prettier-npm-3.3.3-e811f023f3-bc86043548.zip" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value=".yarn/cache/react-native-reanimated-npm-3.16.2-0edcb66358-30d579a8cb.zip" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value=".yarn/cache/resolve.exports-npm-2.0.2-f59b42bbe5-1c7778ca1b.zip" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value=".yarn/cache/shell-quote-npm-1.8.1-fcccf06093-5f01201f4e.zip" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value=".yarn/cache/table-npm-6.8.2-e33ecc3c54-61188652f5.zip" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value=".yarn/cache/terser-npm-5.36.0-e5678e2258-489afd3190.zip" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value=".yarn/cache/undici-types-npm-6.19.8-9f12285b7a-de51f1b447.zip" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value=".yarn/cache/which-boxed-primitive-npm-1.0.2-e214f9ae5a-53ce774c73.zip" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value=".yarn/cache/which-npm-4.0.0-dd31cd4928-f17e84c042.zip" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value=".yarn/cache/which-typed-array-npm-1.1.15-91410874a2-65227dcbfa.zip" />
+  </binary>
+</changelist>

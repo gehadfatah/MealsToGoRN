@@ -1,9 +1,10 @@
 {
-  "name": "MealsToGo",
-  "displayName": "MealsToGo",
+  "name": "mealstogo",
+  "displayName": "mealstogo",
   "expo": {
-    "name": "MealsToGo",
-    "slug": "MealsToGo",
+    "jsEngine": "hermes",
+    "name": "mealstogo",
+    "slug": "mealstogo",
     "version": "0.0.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -17,13 +18,14 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.gehadabdelfatah.MealsToGo"
+      "bundleIdentifier": "com.gehadabdelfatah.mealstogo",
+      "jsEngine": "jsc"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/icon.png"
       },
-      "package": "com.gehadabdelfatah.MealsToGo"
+      "package": "com.gehadabdelfatah.mealstogo"
     },
     "extra": {
       "eas": {

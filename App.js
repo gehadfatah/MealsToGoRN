@@ -14,6 +14,8 @@ import { Navigation } from "./src/infrastructure/navigation";
 import { AuthenticationContextProvider } from "./src/services/authentication/authentication.context";
 
 export default function App() {
+ let x = 2;
+ console.log(x)
   const [oswaldLoaded] = useOswald({
     Oswald_400Regular,
   });
