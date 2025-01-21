@@ -1,0 +1,45 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug Android",
+            "type": "reactnative",
+            "request": "launch",
+            "platform": "android",
+            "sourceMaps": true,
+            "cwd": "${workspaceFolder}",
+            "enableDebug": true
+          },
+
+        {
+            "name": "Debug iOS Hermes",
+            "request": "launch",
+            "type": "reactnativedirect",
+            "cwd": "${workspaceFolder}",
+            "platform": "ios"
+        },
+        {
+            "name": "Debug iOS - Experimental",
+            "request": "launch",
+            "type": "reactnative",
+            "cwd": "${workspaceFolder}",
+            "platform": "ios"
+        },
+        {
+            "name": "Launch Program",
+            "program": "${workspaceFolder}/app.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "type": "reactnative",
+            "request": "attach",
+            "name": "Attach to React Native",
+           "cwd": "${workspaceFolder}"
+
+        }
+    ]
+}
