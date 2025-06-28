@@ -7,7 +7,7 @@ export const Icon = styled.Image`
   height: 15px;
 `;
 
-export const RestaurantCard = styled(View)` //or styled(View)
+export const RestaurantCard = styled(Card)` //or styled(View)
   background-color: ${(props) => props.theme.colors.bg.primary};
 `;
 
