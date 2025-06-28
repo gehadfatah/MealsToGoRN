@@ -15,7 +15,8 @@ export const RestaurantsNavigator = () => {
     <RestaurantStack.Navigator
         headerShown={false}
         screenOptions={{
-        ...TransitionPresets.ModalPresentationIOS,
+        ...TransitionPresets.ModalPresentationIOS, // this cause like modal bottom sheet effect
+        cardStyleInterpolator: TransitionPresets.ModalSlideFromBottomIOS.cardStyleInterpolator, //
         headerStyle: {
           backgroundColor: "white", // iOS-like solid background
           borderBottomWidth: 0, // Remove bottom border
