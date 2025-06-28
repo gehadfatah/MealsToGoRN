@@ -11,4 +11,6 @@ export const theme = {
   fonts,
   fontSizes,
   fontWeights,
+  roundness: 0, // <-- Disable rounded corners globally
+
 };

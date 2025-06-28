@@ -14,9 +14,20 @@ export const RestaurantsNavigator = () => {
   return (
     <RestaurantStack.Navigator
         headerShown={false}
-      screenOptions={{
+        screenOptions={{
         ...TransitionPresets.ModalPresentationIOS,
-      }}
+        headerStyle: {
+          backgroundColor: "white", // iOS-like solid background
+          borderBottomWidth: 0, // Remove bottom border
+          elevation: 0, // Remove Android shadow
+          shadowOpacity: 0, // Remove iOS shadow
+        },
+        headerTitleAlign: "center", // Center title (iOS-like)
+        headerBackTitleVisible: false, // Hide back button text
+        headerTransparent: false,
+        headerBlurEffect: "none", // Disable iOS blur
+      }
+    }
     >
       <RestaurantStack.Screen
         name="restaurants"

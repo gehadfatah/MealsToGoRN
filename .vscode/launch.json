@@ -7,10 +7,8 @@
             "request": "launch",
             "platform": "android",
             "sourceMaps": true,
-            "cwd": "${workspaceFolder}",
-            "enableDebug": true
-          },      
-        
+            "cwd": "${workspaceFolder}"
+        },
         {
             "name": "Debug iOS Hermes",
             "request": "launch",
@@ -35,11 +33,12 @@
             "type": "node"
         },
         {
+            "name": "Attach to packager",
             "type": "reactnative",
             "request": "attach",
-            "name": "Attach to React Native",
-           "cwd": "${workspaceFolder}"
-        
+            "port": 8081,
+            "sourceMaps": true,
+            "cwd": "${workspaceFolder}"
         }
     ]
 }
