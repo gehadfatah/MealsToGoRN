@@ -2,6 +2,44 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Debug Hermes with Expo (Node)",
+            "type": "node",
+            "request": "attach",
+            "address": "localhost",
+            "port": 8081,
+            "restart": true,
+            "sourceMaps": true,
+            "cwd": "${workspaceFolder}",
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ],
+            "sourceMapPathOverrides": {
+                "webpack:///./~/*": "${workspaceFolder}/node_modules/*",
+                "webpack:///./*": "${workspaceFolder}/*",
+                "webpack:///*": "*"
+            },
+            "skipFiles": [
+                "<node_internals>/**"
+            ]
+        },
+        {
+            "name": "Debug Hermes (Node)",
+                "type": "node",
+                "request": "attach",
+                "address": "localhost",
+                "port": 8081,
+                "restart": true,
+                "sourceMaps": true,
+                "cwd": "${workspaceFolder}",
+                "outFiles": ["${workspaceFolder}/src/**/*.js"],
+                "sourceMapPathOverrides": {
+                    "webpack:///./~/*": "${workspaceFolder}/node_modules/*",
+                    "webpack:///./*": "${workspaceFolder}/src/*",
+                    "webpack:///*": "${workspaceFolder}/src/*"
+                  },
+                "skipFiles": ["<node_internals>/**"]
+              },
+        {
             "name": "Debug Android",
             "type": "reactnative",
             "request": "launch",
